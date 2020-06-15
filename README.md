@@ -1,5 +1,5 @@
 # RawNet
-Implementation of the paper ": Advanced end-to-end deep neural network using raw waveforms for text-independent speaker verification"
+Implementation of the paper "RawNet: Advanced end-to-end deep neural network using raw waveforms for text-independent speaker verification"
 Paper: https://arxiv.org/pdf/1904.08104.pdf
 
 # Usage
