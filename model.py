@@ -49,7 +49,7 @@ class BasicBlock3x3(nn.Module):
 
 
 class RawNet(nn.Module):
-    def __init__(self, input_channel, layers=[1, 1], num_classes=1211):
+    def __init__(self, input_channel, num_classes=1211):
         self.inplanes3 = 128
         super(RawNet, self).__init__()
         self.conv1 = nn.Conv1d(input_channel, 128, kernel_size=3, stride=3, padding=0,
